@@ -33,11 +33,11 @@
       "xmlbuilder": "2.6.2",
       "jmespath": "0.15.0"
     },
-    "main": "lib/aws.js",
-    "browser": "lib/browser.js",
+    "main": "dist/aws.js",
+    "browser": "dist/browser.js",
     "browserify": { "transform": "./dist-tools/transform.js" },
     "directories":  {
-      "lib": "lib"
+      "dist": "dist"
     },
     "engines": {
       "node": ">= 0.8.0"
